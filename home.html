@@ -1,0 +1,38 @@
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <form method="post">
+        <h1>Set a new style variation</h1>
+        <section>
+            Style variation name: <input name="Name"/>
+        </section>
+        <section>
+            <h2>Global parameters</h2>
+            Color: <input type="color" name="Color" value="rgba(0,255,255,1)"/>
+            <br/><br/>
+            Font: <input name="Font"/>
+            <br/><br/>
+            Size: <input type="number" name="Size"/>
+            <br/><br/>
+            BorderColor: <input type="color" name="BorderColor" value="rgba(255,0,255,1)"/>
+            <br/><br/>
+            Fill: <input type="color" name="Fill" value="rgba(255,255,0,1)"/>
+        </section>
+        <section>
+            <h2>Button parameters</h2>
+            BorderThickness: <input type="number" name="BorderThickness"/>
+            <br/><br/>
+            RadiusTopLeft: <input type="number" name="RadiusTopLeft"/>
+            RadiusTopRight: <input type="number" name="RadiusTopRight"/>
+            <br/>
+            RadiusBottomLeft: <input type="number" name="RadiusBottomLeft"/>
+            RadiusBottomRight: <input type="number" name="RadiusBottomRight"/>
+
+            <br/><br/>
+        </section> 
+        <br/><br/>
+        <button type="submit">Submit</button>
+    </form>
+</body>
